@@ -11,8 +11,6 @@ while True:
     if len(acct) < 1:
         break
 
-
-
     param = {'screen_name': acct, 'count': '5'}
     TWITTER_URL += urllib.parse.urlencode(param)
 
